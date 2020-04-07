@@ -5,7 +5,7 @@ body {
 #navbar {
     display: flex;
     justify-content: space-evenly;
-    background-color: #dddddd;
+    background-color: #f57878;
     position: fixed;
     top: 0;
     left: 0;
@@ -119,6 +119,10 @@ body {
     font-size: 20px;
 }
 
+.padding-top {
+    padding-top: 50px;
+}
+
 .margin-bottom {
     margin-bottom: 60px;
 }
@@ -132,11 +136,18 @@ body {
 }
 
 .fade-in {
-    animation: fade-in ease 4s;
-    -webkit-animaton: fade-in ease 4s;
-    -moz-animation: fade-in ease 4s;
-    -o-animation: fade-in ease 4s;
-    -ms-animation: fade-in ease 4s;
+    animation: fade-in ease 2s;
+    -webkit-animaton: fade-in ease 2s;
+    -moz-animation: fade-in ease 2s;
+    -o-animation: fade-in ease 2s;
+    -ms-animation: fade-in ease 2s;
+}
+
+.thick-red-border {
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #7a1d1d;
 }
 
 .copyright-font-size {
